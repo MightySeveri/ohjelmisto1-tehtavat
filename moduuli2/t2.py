@@ -1,3 +1,5 @@
-sade = input('syötä ympyrän pintaala')
-pie = 3.14
-print (sade * piirakka)
+sade = input('syötä ympyrän säde')
+piirakka = float (3.14)
+sade = float(sade)
+vastaus = (piirakka * sade)
+print(vastaus)

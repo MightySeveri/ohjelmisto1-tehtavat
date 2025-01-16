@@ -1,0 +1,8 @@
+kanta1 = input('syötä suorakulmion kanta')
+korkeus1 = input('syötä suorakulmion korkeus')
+kanta = float (kanta1)
+korkeus = float (korkeus1)
+pintaala = (kanta * korkeus)
+piiri = (kanta + kanta + korkeus + korkeus)
+print(f'pinta ala on {pintaala}')
+print(f'piiri on {piiri}')
