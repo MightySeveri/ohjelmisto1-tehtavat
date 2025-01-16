@@ -1,5 +1,5 @@
 sade = input('syötä ympyrän säde')
 piirakka = float (3.14)
 sade = float(sade)
-vastaus = (piirakka * sade)
+vastaus = (piirakka * (sade * sade))
 print(vastaus)
