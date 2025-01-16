@@ -1,1 +1,1 @@
-print ("Hei, Severi!")
+print ("Hei, maailma!")
