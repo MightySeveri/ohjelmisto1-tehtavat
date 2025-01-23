@@ -9,5 +9,3 @@ while luku != arva:
         print('liian suuri')
     if arva == luku:
         print('aivan oikein')
-
-#ohejlma kysyy ensimmäisellä kerralla kahdesti koska en keksinyt miten saan sen muuten loopattua
