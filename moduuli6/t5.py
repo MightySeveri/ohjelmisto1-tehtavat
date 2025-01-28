@@ -1,12 +1,6 @@
 lista = []
-def kokonainen():
+def kokonainen(1, 2, 3, 4, 5, 6):
     while True:
-        luku = input('Syötä kokonaisluku:')
-        if luku == "":
-            break
-        lista.append(int(luku))
-        tasa = int(luku)
-        if luku % 2 == 0:
-    return tasa
+
 tasa = kokonainen()
-print('Syötetyt parilliset luvut ovat:', lista)
+print('parilliset luvut ovat:', lista)
