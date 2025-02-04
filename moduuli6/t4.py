@@ -1,13 +1,14 @@
-lista = []
+def laske_summa(lista):
+    return sum(lista)
 
-def kokonainen():
-    summa = 0
+def paaohjelma():
+    lista = []
     while True:
-        luku = input('Syötä kokonaisluku:')
+        luku = input('Syötä kokonaisluku: ')
         if luku == "":
             break
         lista.append(int(luku))
-        summa += int(luku)
-    return summa
-summa = kokonainen()
-print('Syötettyjen lukujen summa on:', summa)
+    summa = laske_summa(lista)
+    print('Syötettyjen lukujen summa on:', summa)
+
+paaohjelma()
